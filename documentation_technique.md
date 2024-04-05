@@ -18,27 +18,27 @@
 
 ## Sommaire
 
-- [I - Architecture du projet](#i---architecture-du-projet)
+- [I - Technologies utilisées](#i---technologies-utilisées)
   - [A - Back-End](#a---back-end)
   - [B - Front-End](#b---front-end)
-- [II - Fonctionnalités](#ii---fonctionnalités)
-- [III - Documentation des fonctionnalités](#iii---documentation-des-fonctionnalités)
+- [II - Solution proposée](#ii---solution-proposée)
+- [III - Analyse décisionnelle](#iii---analyse-décisionnelle)
   - [A - Interface d'application](#a---interface-dapplication)
   - [B - Bundles](#b---bundles)
   - [C - Applications](#c---applications)
-- [IV - Installation](#iv---installation)
-- [V - Lancement de l'application](#v---lancement-de-lapplication)
-- [VI - Liens utiles](#vi---liens-utiles)
+- [IV - Planning](#iv---planning)
+- [V - Budget](#v---budget)
+- [VI - Sources](#vi---sources)
 
-## Technologies utilisées
+## I - Technologies utilisées
 
 - Front-End : **ReactJS** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width="30px" alt="ReactJS logo" />
 - Back-End : **Golang** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png" width="30px" alt="Golang logo" />
 - Base de données : **MongoDB** <img src="https://www.svgrepo.com/show/331488/mongodb.svg" width="30px" alt="MongoDB logo" />
 
-## Solution proposée
+## II - Solution proposée
 
-Dans le cadre de notre expertise, pour répondre aux besoins et attendus demandés par le porteur de projet nous avons établi différentes solutions possibles pour la mise en place d'une solution qui répond aux attentes du client. Nous avons étudiés plusieurs approches, nous retenons cependant une solution qui nous semble la plus adaptée pour ce projet compte tenu du budget disponible, des compétences et des compétences de notre équipe.
+Dans le cadre de notre expertise, pour répondre aux besoins et attentes demandés par le porteur de projet, nous avons établi différentes solutions possibles pour la mise en place d'une solution qui répond aux attentes du client. Nous avons étudié plusieurs approches, nous retenons cependant une solution qui nous semble la plus adaptée pour ce projet compte tenu du budget disponible, des compétences et des compétences de notre équipe.
 
 Pour cela, nous avons comparé les différentes solutions possibles à adopter pour ce projet en une matrice qui regroupe différents critères de comparaison :
 
@@ -51,10 +51,9 @@ Pour cela, nous avons comparé les différentes solutions possibles à adopter p
 
 Maintenant que nous avons attribué des notes à chaque solution pour chaque critère, nous pouvons les comparer et déterminer la solution la plus adaptée pour notre projet.
 
-En se basant sur les notes attribuées, voici une analyse comparative des solutions :
+En nous basant sur les notes attribuées, voici une analyse comparative des solutions :
 
-- **Application mobile** : Bien qu'elle bénéficie d'une bonne performance et d'une grande popularité, une application mobile pourrait nécessiter un développement coûteux et relativement long, ainsi qu'une consommation d'énergie plus élevée en raison de l'utilisation intensive du matériel du smartphone. Sa durabilité à long terme peut également être limitée en raison des mises à jour nécessaires pour rester compatibles avec les nouveaux appareils et systèmes d'exploitation.
-Enfin les applications mobiles sont aussi dépendantes des stores qui peuvent avoir des beaucoup contraintes.
+- **Application mobile** : Bien qu'elle bénéficie d'une bonne performance et d'une grande popularité, une application mobile pourrait nécessiter un développement coûteux et relativement long, ainsi qu'une consommation d'énergie plus élevée en raison de l'utilisation intensive du matériel du smartphone. Sa durabilité à long terme peut également être limitée en raison des mises à jour nécessaires pour rester compatibles avec les nouveaux appareils et systèmes d'exploitation. Enfin, les applications mobiles sont aussi dépendantes des stores qui peuvent avoir beaucoup de contraintes.
 
 - **Progressive Web App (PWA)** : La PWA obtient de bonnes notes dans tous les critères, avec une performance élevée, des coûts de développement relativement bas, une durabilité à long terme solide, un temps de développement raisonnable, une faible consommation d'énergie et une popularité croissante en raison de son adoption par de nombreuses entreprises. Cela en fait une option attrayante pour votre projet, en particulier compte tenu de ses avantages en termes de coût, de facilité de développement et de compatibilité multiplateforme.
 
@@ -62,11 +61,11 @@ Enfin les applications mobiles sont aussi dépendantes des stores qui peuvent av
 
 - **Application Web** : Une application web pourrait offrir une meilleure performance et une durabilité à long terme par rapport à un site internet, mais elle pourrait nécessiter un développement plus complexe et des coûts plus élevés. Sa popularité est également moindre par rapport aux autres options.
 
-Nous avons donc opter pour le développement d'une **Progressive Web App (PWA)**.
+Nous avons donc opté pour le développement d'une **Progressive Web App (PWA)**.
 
-Une **Application Web Progressive** en Français (PWA) est un site Web qui dispose de fonctionnalités habituellement propres aux applications mobiles, comme le fait de **fonctionner hors ligne** ou d’envoyer des **notifications push**. La PWA est une solution tout-en-un et qui peut être adapté à tous les appareil en une seule fois sans les difficultés de la publication sur un store contrairement aux applications mobiles. En termes d’UX, il existe un large éventail de PWA.
+Une **Application Web Progressive** en Français (PWA) est un site Web qui dispose de fonctionnalités habituellement propres aux applications mobiles, comme le fait de **fonctionner hors ligne** ou d’envoyer des **notifications push**. La PWA est une solution tout-en-un et qui peut être adaptée à tous les appareils en une seule fois sans les difficultés de la publication sur un store contrairement aux applications mobiles. En termes d’UX, il existe un large éventail de PWA.
 
-Une PWA  dispose de plusieurs avantages non seulement pour les utilisateurs mais aussi pour les entreprises.
+Une PWA dispose de plusieurs avantages non seulement pour les utilisateurs mais aussi pour les entreprises.
 
 **Pour les utilisateurs**
 
@@ -86,12 +85,12 @@ Une PWA  dispose de plusieurs avantages non seulement pour les utilisateurs mais
 - **Facilité de maintenance :** Les PWA sont plus faciles à mettre à jour que les applications natives.
 - Une PWA n’a pas besoin d’être mise à jour, elle se met à jour automatiquement.
 
-## Analyse décisionnaire
+## III - Analyse décisionnelle
 
-### Back-End
+### A - Back-End
 
 Ayant décidé de nous orienter vers le développement d'une PWA, nous avons décidé d'utiliser des technologies adaptées à cette solution.
-En outre, pour continuer dans l'utilisation de technologies peu consommatrices en énergie et performantes, nous avons réalisé une analyse comparative des différents langages de programmation les plusà même de répondre à la problématique écologique.
+En outre, pour continuer dans l'utilisation de technologies peu consommatrices en énergie et performantes, nous avons réalisé une analyse comparative des différents langages de programmation les plus à même de répondre à la problématique écologique.
 
 Selon l'étude ***Energy Efficiency across Programming Languages: How does Energy, Time and Memory Relate?*** réalisé en 2017
 , voici ce que nous pouvons conclure de l'impact des différents langage de programmations en fonction de différents critères :
@@ -113,7 +112,7 @@ Selon l'étude ***Energy Efficiency across Programming Languages: How does Energ
 | Swift    |     7       |            7             |          7            |           7             |          8             |          7            |         7            |          8           |
 | Ruby     |     6       |            8             |          7            |           7             |          8             |          5            |         6            |          8           |
 
-Les notes sont basées sur une combinaison de l'**efficacité énergétique** (comme indiqué dans l'image plus haut) et d'autres facteurs tels que la **popularité du langage**, la **facilité d'apprentissage**, le **temps de développement**, la **syntaxe et la lisibilité**.
+La notation sur 10 est basée sur une combinaison de l'**efficacité énergétique** (comme indiqué dans l'image plus haut) et d'autres facteurs tels que la **popularité du langage**, la **facilité d'apprentissage**, le **temps de développement**, la **syntaxe et la lisibilité**.
 
 Voici comment nous avons procédé :
 
@@ -148,9 +147,9 @@ Nous pensons que Rust est plus adapté pour ce projet au vu de ces performances 
 - **Efficacité énergétique** : Bien que Golang ne soit pas le langage le plus efficace en termes d'énergie, il offre un bon équilibre entre performance et efficacité énergétique.
 - **Popularité** : Golang est largement utilisé et dispose d'une grande communauté, ce qui signifie que nous pourrons facilement trouver des ressources d'apprentissage.
 
-### Front-End
+### B - Front-End
 
-Enfin, pour justifier nos choix technologique sur la partie Front-End de l'application nous avons réalisé une analyse similaire que pour la partie **Back-End**.
+Enfin, pour justifier nos choix technologique sur la partie Front-End de l'application nous avons réalisé une analyse similaire à la partie **Back-End**.
 De ce fait, nous avons décidé de directement réaliser une analyse comparative des **frameworks Javascript**. Pourquoi ? Nous avons décidé d'utiliser Javacript en Front-End car toujours selon l'étude citée plus tôt il est le langage (en tout cas en développement Front-End) qui possède les meilleurs performances pour cette tâche. C'est pouquoi la comparaison s'effectue sur ses frameworks.
 Ainsi nous avons comparé les framework **React**, **VueJS** et **Angular**.
 
@@ -210,29 +209,11 @@ React dispose de plusieurs avantages et est adapté au développement d'un PWA :
 
 - ReactJS est parfaitement compatible avec le développement de Progressive Web Apps (PWA). Vous pouvez utiliser des outils comme Create React App pour initialiser rapidement votre projet PWA et profiter des fonctionnalités telles que le service worker pour le caching des données et le chargement hors ligne, ce qui améliore l'expérience utilisateur, notamment pour les utilisateurs ayant une connectivité limitée.
 
-**En ce qui concerne les fonctionnalités spécifiques de votre application :**
+### C - Base de données
 
-- **Possibilité de prendre des photos:** ReactJS peut facilement être intégré à des API natives pour accéder à la caméra de l'appareil et prendre des photos.
-- **Système de swipe:** Il existe de nombreuses bibliothèques ReactJS disponibles pour créer des systèmes de swipe, comme Tinder.
-- **Gain d'argent ou de récompenses:** ReactJS peut être utilisé pour créer des systèmes de paiement et de gestion des récompenses.
+Pour un projet de ce type, il est judicieux de prendre en compte plusieurs facteurs pour choisir son modèle de base de données.
 
-**En conclusion, ReactJS est un excellent choix pour le développement de votre PWA.**
-
-**Il est performant, flexible, facile à apprendre et dispose d'une large communauté de développeurs.**
-
-**De plus, il est possible d'intégrer facilement les fonctionnalités spécifiques de votre application à ReactJS.**
-
-**Voici quelques ressources qui pourraient vous être utiles :**
-
-- **La documentation officielle de ReactJS:** [https://reactjs.org/](https://reactjs.org/)
-- **Tutoriels ReactJS:** [URL non valide supprimée]
-- **Bibliothèques ReactJS pour le swipe:** [URL non valide supprimée]
-
-### Base de données
-
-Pour un projet de ce type, qui comprend des fonctionnalités telles que la prise de photos, un système de swipe similaire à Tinder, et la gestion des gains d'argent ou de récompenses, il est judicieux de prendre en compte plusieurs facteurs pour choisir entre une base de données relationnelle ou non relationnelle.
-
-Notre équipe dispose de conpétences dans les 2 modèles de base de données. Notamment en **PostgreSQL** (SQL) ainsi qu'en **MongoDB** (NoSQL)
+Notre équipe dispose de compétences avec les modèles de base de données relationnelle. Notamment en **PostgreSQL** (SQL) ainsi qu'en **MongoDB** (NoSQL)
 
 Selon une enquête de **Stack Overflow** en 2023 Postgres est devenue la base de données la plus appréciée.
 
@@ -298,12 +279,12 @@ Voici un tableau comparatif entre Postgres et MongoDB, basé sur différents asp
 | Opérabilité    | Optimisé pour un seul nœud et une large gamme de fournisseurs d'hébergement | Optimisé pour plusieurs nœuds et un service d'hébergement raffiné |
 | Écosystème     | Animé par la communauté, décentralisé   | Dirigé par l'entreprise, centralisé           |
 
-Pour cette matrice spécifique nous penser que classer 2 modèles de base de données n'est pas pertinent car chacun a ses propres avantages et inconvénients, et le choix dépend du cas de notre solution.
+Pour cette matrice spécifique nous avons pensé que classer 2 modèles de base de données avec des notes n'est pas pertinent car chacun des modèles dispose de ses propres avantages et inconvénients, et le choix dépend du cas de notre solution.
 
 Pour faciliter l'intégration avec le Back-End en Golang ainsi que pour des soucis d'évolutivité (notamment lié aux volume de données qui pourrait être assez conséquent), nous pensons qu'il est préférable d'utiliser **MongoDB** pour notre système de gestion de base de données.
 Aussi, les bases de données non relationnelles, telles que MongoDB, offrent une flexibilité beaucoup plus grande en termes de schéma de données. Contrairement aux bases de données relationnelles, qui ont des schémas rigides et prédéfinis, les bases de données non relationnelles permettent de stocker des données de manière plus flexible, sans nécessiter de structure de table prédéfinie.
 
-### Hébergement vert
+### D - Hébergement vert
 
 Le porteur de projet dispose actuellement d'un hébergement web. Nous n'imposons pas de changement d'hébergeur web, cependant, nous souhaitons proposer un avis sur un hébergeur web green que nous pensons adapté à la solution et en adéquation avec les valeurs de l'association.
 
@@ -343,7 +324,7 @@ EX2 dispose des éléments suivant que nous considérons pertinents pour une sol
 - Installation assistée de nombreux CMS/applications
 - Tarifs longues durées abordables
 
-## Planning
+## IV - Planning
 
 | Phase de Conception (2 semaines)         | Durée Estimée |
 |------------------------------------------|----------------|
@@ -398,7 +379,7 @@ EX2 dispose des éléments suivant que nous considérons pertinents pour une sol
 | - Acquisition des premiers utilisateurs. |
 | - Suivi des performances et de l'engagement. |
 
-### Budget
+## V - Budget
 
 Voici un tableau justifiant les coûts de développement de la solution PWA. Le développement d'une PWA simple en France est entre 10 000€ et 60 000€ pour les PWA complexes. Nous avons décidé d'allouer un budget de 15 000€ au développement de la solution. Ce choix est justifié  :
 
@@ -417,13 +398,13 @@ Voici un tableau justifiant les coûts de développement de la solution PWA. Le 
 | **Coût de la Solution PWA**          | -                | **15,000**      | **100**                 | **15,000**     |
 | **Total (avec Solution PWA)**        | -                | -               | -                       | **30,000**     |
 
-## Sources
+## VI - Sources
 
-[Wikipédia](https://fr.wikipedia.org/wiki/Progressive_web_app)
-
-[Progressive Web App](https://lagrandeourse.design/blog/outils/quels-outils-pour-developper-une-pwa/)
+### PWA
 
 [PWA.fr](https://www.progressive-web-apps.fr/pwa-5-raisons-interesser-infographie)
+
+[Wikipédia](https://fr.wikipedia.org/wiki/Progressive_web_app)
 
 [Google PWA](https://developers.google.com/web/progressive-web-apps/)
 
@@ -431,27 +412,41 @@ Voici un tableau justifiant les coûts de développement de la solution PWA. Le 
 
 [Gemini](https://gemini.google.com/)
 
-[Éco-conception web](https://www.numendo.com/blog/front/eco-conception-web-pourquoi-et-comment-creer-un-site-eco-responsable/)
+### Éco-conception web
 
-[Calculateur d'emprunte carbon web](https://www.websitecarbon.com/)
+[Progressive Web App](https://lagrandeourse.design/blog/outils/quels-outils-pour-developper-une-pwa/)
+
+[Éco-conception web](https://www.numendo.com/blog/front/eco-conception-web-pourquoi-et-comment-creer-un-site-eco-responsable/)
 
 [Article sur l'éco-conception](https://alexsoyes.com/eco-conception-web/)
 
-[Languages écologiques](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
+### Comparatif langages
 
-[Comparatif récent des languages de programmation écologiques](https://www.linkedin.com/pulse/what-greenest-programing-languages-michael-spencer/)
+[Calculateur d'emprunte carbon web](https://www.websitecarbon.com/)
+
+[Langages écologiques](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
+
+[Comparatif récent des langages de programmation écologiques](https://www.linkedin.com/pulse/what-greenest-programing-languages-michael-spencer/)
 
 [Golang vs Rust](https://www.pixelcrayons.com/blog/software-development/go-vs-rust/)
+
+### Hébergement Web Green
 
 [Hébergement web vert](https://www.journaldugeek.com/hebergeur/ecologique/)
 
 [De l'hébergement classique à l'hébergement web](https://www.hellocarbo.com/blog/reduire/hebergement-vert-site-web/)
 
+### Base de données
+
 [MongoDB vs PostgreSQL](https://www.bytebase.com/blog/postgres-vs-mongodb/)
+
+### Frameworks Javascript
 
 [React vs Angular vs Vue performances](https://blog.logrocket.com/angular-vs-react-vs-vue-js-comparing-performance/)
 
 [React vs Angular vs Vue](https://www.ambient-it.net/reactjs-vs-angular-vs-vuejs/)
+
+### Budget
 
 [Tarif Développeur Golang](https://www.codeur.com/developpeur/go/tarif)
 
